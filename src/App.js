@@ -8,7 +8,7 @@ function App() {
   const [loading,setLoading]=useState(false)
   useEffect(()=>{
     console.log("the data comg==")
-    
+    fetchData()
     
   },[])
   const fetchData=async()=>{
