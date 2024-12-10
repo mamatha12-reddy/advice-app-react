@@ -7,7 +7,7 @@ function App() {
   const [advice,setAdvice]=useState('')
   const [loading,setLoading]=useState(false)
   useEffect(()=>{
-    console.log("The app is regaring giving advice")
+    console.log("The app is regaring giving advice....")
     fetchData()
     
   },[])
